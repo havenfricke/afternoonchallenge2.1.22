@@ -1,0 +1,70 @@
+:root{
+  --textcolor: white;
+}
+
+.d-flex{
+  display: flex;
+}
+
+
+.card{
+  display: flex;
+  background-color: rgb(42, 42, 173);
+  justify-content: space-around;
+  font-family: 'Roboto', sans-serif;
+  border-style: solid;
+  border-color: rgb(34, 34, 34);
+  border-width: 3px;
+  box-shadow: rgb(88, 88, 88);
+}
+
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  display: flex;
+  justify-content: space-around;
+  color:white;
+}
+
+p{
+  display: flex;
+  text-align: left;
+}
+
+.hidetext{
+  color: rgba(42, 42, 173, 0);
+}
+
+.left-column{
+  width: 70%;
+  inline-size: 600px;
+}
+
+.right-column{
+  width: 30%;
+}
+
+h2{
+  text-align: left;
+}
+
+.bigtext{
+  text-size-adjust: 50px;
+}
+
+.border-top{
+  border-top: 50px solid cornflowerblue;
+  padding-top: 1em;
+}
+
+main{
+  justify-content: end;
+}
+
+.mover{
+  transform: translateX(200px) translateY(50px);
+  padding-top: 50px;
+}
+
