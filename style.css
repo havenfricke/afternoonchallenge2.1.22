@@ -68,3 +68,12 @@ main{
   padding-top: 50px;
 }
 
+footer{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+}
+
+img{
+  object-fit: scale-down;
+}
