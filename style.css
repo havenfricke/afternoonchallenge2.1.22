@@ -68,6 +68,12 @@ main{
   padding-top: 50px;
 }
 
+header{
+  position: fixed;
+  top: 0;
+  width:100%;
+}
+
 footer{
   position: fixed;
   bottom: 0;
@@ -75,5 +81,8 @@ footer{
 }
 
 img{
-  object-fit: scale-down;
+  object-fit: contain;
+  size-adjust: 50%;
 }
+
+
